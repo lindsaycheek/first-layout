@@ -15,3 +15,7 @@ body {
   /* margin 0 auto alone doesnt do anything, need to set a width */
   width: 80%;
 }
+
+li {
+  list-style-type: none;
+}
