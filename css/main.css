@@ -10,16 +10,32 @@ body, h1, h2, ul, ol {
 
 body {
   font-family: 'Lato', Arial, sans-serif;
+  font-size: 1em;
   margin: 20px auto 0;
   /*this means 20 px to top, auto the sides, then 0 to bottom*/
   /* margin 0 auto alone doesnt do anything, need to set a width */
   width: 80%;
 }
 
-li {
-  list-style-type: none;
+h1 {
+  font-size: 2em;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  width: 20em;
 }
 
 nav a {
   text-decoration: none;
+}
+
+li {
+  list-style-type: none;
 }
