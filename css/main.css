@@ -40,6 +40,10 @@ nav ul {
 
 nav a {
   text-decoration: none;
+  color: black;
+  background: orange;
+  border-radius: 4px;
+  padding: 10px;
 }
 
 li {
