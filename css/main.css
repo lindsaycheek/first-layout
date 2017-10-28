@@ -46,6 +46,10 @@ nav a {
   padding: 10px;
 }
 
+a.first-anchor {
+  background-color: red;
+}
+
 li {
   list-style-type: none;
 }
