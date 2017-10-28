@@ -53,3 +53,17 @@ a.first-anchor {
 li {
   list-style-type: none;
 }
+
+div h1 {
+  font-size: 4em;
+  color: white;
+}
+
+div {
+  margin: 4em;
+  height: 12em;
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
