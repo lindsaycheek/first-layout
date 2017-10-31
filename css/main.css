@@ -1,6 +1,7 @@
 /*** web fonts ***/
 @import url(https://fonts.googleapis.com/css?family=Lato:400);
 @import url(https://fonts.googleapis.com/css?family=Luckiest+Guy:400);
+@import url(https://fonts.googleapis.com/css?family=Bree+Serif:400);
 
 /*** basic reset ***/
 
@@ -42,6 +43,7 @@ nav ul {
   display: flex;
   justify-content: space-between;
   width: 20em;
+  margin-top: 2.5em;
 }
 
 nav a {
@@ -54,6 +56,7 @@ nav a {
 
 a.first-anchor {
   background-color: red;
+  color: white;
 }
 
 a:hover {
@@ -66,8 +69,9 @@ li {
 }
 
 div h1 {
-  font-size: 4em;
-  color: white;
+  font-size: 6em;
+  color: black;
+  font-family: 'Bree Serif', serif;
 }
 
 div {
