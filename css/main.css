@@ -13,19 +13,25 @@ body {
   font-family: 'Lato', Arial, sans-serif;
   font-size: 1em;
   margin: 20px auto 0;
-  /*this means 20 px to top, auto the sides, then 0 to bottom*/
+  /*this means 20 px to top, auto the sides, then 0 to /bottom*/
   /* margin 0 auto alone doesnt do anything, need to set a width */
   width: 80%;
 }
 
-header h1 {
+/*header h1 {
   font-family: "Luckiest Guy", cursive;
   font-size: 2em;
-}
+}*/
 
 header {
   display: flex;
   justify-content: space-between;
+  /*height: 6em;*/
+}
+
+header img {
+  margin-right: auto;
+  height: 8em;
 }
 
 nav {
@@ -50,6 +56,11 @@ a.first-anchor {
   background-color: red;
 }
 
+a:hover {
+  background: blue;
+  color: white;
+}
+
 li {
   list-style-type: none;
 }
@@ -60,9 +71,9 @@ div h1 {
 }
 
 div {
-  margin: 4em;
+  margin: 3em auto;
   height: 12em;
-  background: black;
+  background: purple;
   display: flex;
   justify-content: center;
   align-items: center;
